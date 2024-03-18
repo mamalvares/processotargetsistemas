@@ -1,0 +1,9 @@
+4 Na primeira ida, eu acenderia dois interruptores e deixaria um desligado.
+
+Se uma das salas estiver iluminada na minha primeira ida, então eu sei que o interruptor ligado controla essa lâmpada. O interruptor que deixei desligado controla outra lâmpada na outra sala.
+Se nenhuma sala estiver iluminada, então a lâmpada que permaneceu apagada na minha primeira ida corresponde à sala que eu não visitei. As outras duas lâmpadas correspondem às salas que visitei.
+Na segunda ida, eu iria para uma das salas restantes e:
+
+Se a lâmpada estiver acesa, então o interruptor ligado controla essa lâmpada. O interruptor que deixei desligado na primeira ida controla a lâmpada na outra sala.
+Se a lâmpada estiver apagada, então o interruptor desligado na primeira ida controla essa lâmpada. O interruptor ligado na primeira ida controla a lâmpada na outra sala.
+Dessa forma, em duas idas eu poderia determinar qual interruptor controla cada lâmpada, sem precisar ver as lâmpadas diretamente.
